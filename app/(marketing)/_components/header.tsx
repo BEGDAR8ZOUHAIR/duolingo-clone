@@ -18,7 +18,7 @@ export function Header() {
 				<div className="flex items-center gap-x-3 pb-7 pl-4 pt-8">
 					<Image src="/mascot.svg" height={40} width={40} alt="Mascot" />
 					<h1 className="text-2xl font-extrabold tracking-wide text-green-600">
-						Lingo
+						Duolingo
 					</h1>
 				</div>
 
@@ -40,8 +40,8 @@ export function Header() {
 					<SignedOut>
 						<SignInButton
 							mode="modal"
-							afterSignInUrl="/"
-							afterSignUpUrl="/"
+							afterSignInUrl="/learn"
+							afterSignUpUrl="/learn"
 						>
 							<Button size="lg" variant="secondary">
 								Login
