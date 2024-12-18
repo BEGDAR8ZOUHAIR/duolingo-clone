@@ -6,14 +6,13 @@ import { Button } from "@/components/ui/button";
 // import { courses } from "@/server/db/schema";
 
 interface UserProgressProps {
-  activeCourse: any;
+  activeCourse: null;
   hearts: number;
   points: number;
   hasActiveSubscription: boolean;
 }
 
 export const UserProgress = ({
-  activeCourse,
   hearts,
   points,
   hasActiveSubscription,
@@ -22,13 +21,6 @@ export const UserProgress = ({
     <div className="flex w-full items-center justify-between gap-x-2">
       <Link href="/courses">
         <Button variant="ghost">
-          {/* <Image
-            src={activeCourse.imageSrc}
-            alt={activeCourse.title}
-            className="rounded-md border"
-            width={32}
-            height={32}
-          /> */}
         </Button>
       </Link>
 

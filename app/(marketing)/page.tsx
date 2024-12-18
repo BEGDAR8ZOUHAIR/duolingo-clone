@@ -32,8 +32,6 @@ export default function HomePage() {
             <SignedOut>
               <SignUpButton
                 mode="modal"
-                afterSignInUrl="/learn"
-                afterSignUpUrl="/learn"
               >
                 <Button size="lg" variant="secondary" className="w-full">
                   Get Started
@@ -42,8 +40,6 @@ export default function HomePage() {
 
               <SignInButton
                 mode="modal"
-                afterSignInUrl="/learn"
-                afterSignUpUrl="/learn"
               >
                 <Button size="lg" variant="primaryOutline" className="w-full">
                   I already have an account

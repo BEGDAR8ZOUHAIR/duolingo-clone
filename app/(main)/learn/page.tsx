@@ -1,4 +1,4 @@
-import { redirect } from "next/navigation";
+
 
 import { FeedWrapper } from "@/components/feed-wrapper";
 import { StickyWrapper } from "@/components/sticky-wrapper";
